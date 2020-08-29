@@ -6,4 +6,12 @@
 
 ## Results
 
-### 
+### After joining several tables, filtering for the data we want, and performing a few calculations, we arrive at the two tables below:
+![](https://github.com/christianhargett/Pewlett-Hackard-Analysis/blob/master/Retiring_titles.png)
+
+### The first list is the amount of employees, by title, at Pewlett Hackard that are preparing to retire soon. After looking at the table we can conclude a few things:
+
+### - Pewlett Hackard has a massive retirement problem. They have 90,398 employees who are set to retire soon, which is a staggering number. If they didn't know the silver tsunami poses a great threat to the company, this analysis will make them aware.
+
+### - Pewlett Hackard should probably prioritize on replacing the Senior Engineers and Senior Staff positions. These two titles combined make up 64% of the overall retiring employees dataset. 
+
