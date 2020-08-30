@@ -32,3 +32,9 @@
 ![](https://github.com/christianhargett/Pewlett-Hackard-Analysis/blob/master/Retiring_titles_current_employees.png)
 
 ### This table shows that there are around 72,000 employees that Pewlett Hackard needs to replace. 
+
+### PH also faces another task in that they must mentor their current employees in order to fill these roles. We already determined previously that the mentorship participation program might already be too small, but perhaps there are certain departments that need to focus on getting more eligible employees than others. After a series of SQL joins and calculations, we arrive at the below table that displays the amount of mentorship eligible employees by department:
+
+![](https://github.com/christianhargett/Pewlett-Hackard-Analysis/blob/master/Mentorship_count.png)
+
+### As we might have inferred, it appears that not a single department has a sufficient amount of employees to participate in the mentorship program. A fair recommendation for Pewlett Hackard would be to fix the criteria for the mentorship program so that even more experienced employees are eligible to mentor other current employees.
