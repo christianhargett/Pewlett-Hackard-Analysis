@@ -43,4 +43,46 @@ FROM employees as e
 	INNER JOIN titles as ti
 		ON (e.emp_no = ti.emp_no)
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no
+
+-- Unique titles CURRENT EMPLOYEES csv
+SELECT ut.emp_no,
+		ut.first_name,
+		ut.last_name,
+		ut.title,
+		ut.to_date
+INTO unique_titles_current_emp
+FROM unique_titles as ut
+WHERE (ut.to_date = '9999-01-01');
+
+-- Retiring titles CURRENT EMPLOYEES
+SELECT COUNT (utch.title), utch.title
+--INTO retiring_titles_current_emp
+FROM unique_titles_current_emp as utch
+GROUP BY utch.title
+ORDER BY COUNT(utch.title) DESC
+
+DROP TABLE unique_titles_current_emp
+
+-- Mentorship eligiblity by dept
+SELECT DISTINCT ON (me.emp_no) me.emp_no,
+		me.first_name,
+		me.last_name,
+		de.dept_no,
+		d.dept_name
+INTO mentorship_eligibility_by_dept
+FROM mentorship_eligibility as me
+	INNER JOIN dept_emp as de
+		ON (me.emp_no = de.emp_no)
+	INNER JOIN departments as d
+		ON (de.dept_no = d.dept_no)
+		
+DROP TABLE mentorship_eligibility_by_dept
+
+-- Mentorship eligibility by dept count
+SELECT COUNT (med.dept_name), med.dept_name
+INTO mentorship_count
+FROM mentorship_eligibility_by_dept as med
+GROUP BY med.dept_name
+ORDER BY COUNT(med.dept_name) DESC
