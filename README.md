@@ -17,7 +17,7 @@
 
 ### After looking at the tables we can conclude a few things:
 
-### 1). Pewlett Hackard has a massive retirement problem. They have 90,398 employees who are set to retire soon, which is a staggering number. If they didn't know the silver tsunami poses a great threat to the company, this analysis will make them aware.
+### 1). Pewlett Hackard has a massive retirement problem. They have 90,398 employees who are set to retire soon or have already retired, which is a staggering number. If they didn't know the silver tsunami poses a great threat to the company, this analysis will make them aware.
 
 ### 2). Pewlett Hackard should probably prioritize on replacing the Senior Engineers and Senior Staff positions. These two titles combined make up 64% of the overall retiring employees dataset. 
 
