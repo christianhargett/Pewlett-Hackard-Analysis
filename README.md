@@ -21,7 +21,7 @@
 
 ### 2). Pewlett Hackard should probably prioritize on replacing the Senior Engineers and Senior Staff positions. These two titles combined make up 64% of the overall retiring employees dataset. 
 
-### 3). Even though it may jump off the page, the Managers retiring is also an important problem that needs to be addressed. PH only has 9 departments in total, and they have 1 manager per department. Losing 2 out of 9 very key personnel is an issue that will certainly need to be addressed
+### 3). Even though it may not jump off the page, the Managers retiring is also an important problem that needs to be addressed. PH only has 9 departments in total, and they have 1 manager per department. Losing 2 out of 9 very key personnel is an issue that will certainly need to be addressed
 
 ### 4). Pewlett Hackard only has around 1,500 employees that are eligible for the mentorship program. Based off of PH's total employees, this number may not be enough to prepare current employees for the silver tsunami. PH might want to consider tweaking their criteria for employees that are eligible for the mentorship partcipation program.
 
