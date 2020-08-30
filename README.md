@@ -13,7 +13,7 @@
 
 ![](https://github.com/christianhargett/Pewlett-Hackard-Analysis/blob/master/Mentorship_eligibility.png)
 
-### The first list is the amount of employees, by title, at Pewlett Hackard that are preparing to retire soon. The second list is the table that contains a list of employees elgible for the mentorship program (the image above only includes the first few rows of the data).
+### The first list is the amount of employees, by title, at Pewlett Hackard that are preparing to retire soon or have already retired. The second list is the table that contains a list of employees elgible for the mentorship program (the image above only includes the first few rows of the data).
 
 ### After looking at the tables we can conclude a few things:
 
