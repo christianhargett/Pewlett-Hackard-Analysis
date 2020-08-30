@@ -25,4 +25,10 @@
 
 ### 4). Pewlett Hackard only has around 1,500 employees that are eligible for the mentorship program. Based off of PH's total employees, this number may not be enough to prepare current employees for the silver tsunami. PH might want to consider tweaking their criteria for employees that are eligible for the mentorship partcipation program.
 
+## Summary
 
+### As the silver tsunami begins to have an impact on Pewlett Hackard, we need to know how many roles will need to be replaced. In order to determine this we can create another query that is similar to the retiring counts we had in the 2nd table above. Only this time our data will filter on strictly CURRENT Pewlett Hackard employees who are retiring soon (whereas our other table also contained employees who had already retired). When doing this we arrive at the table below:
+
+![](https://github.com/christianhargett/Pewlett-Hackard-Analysis/blob/master/Retiring_titles_current_employees.png)
+
+### This table shows that there are around 72,000 employees that Pewlett Hackard needs to replace. 
